@@ -5,7 +5,7 @@ void setup ()
 {
   size (500,500);
   // Images must be in the "data" directory to load correctly
-  img = loadImage("42674765.jpg");
+  img = loadImage("images.jpg");
 }
 
 void draw() {
