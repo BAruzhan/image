@@ -1,21 +1,19 @@
-
 PImage img;
- 
-void setup()
+int dx=80;
+int dy=80;
+void setup ()
 {
-	size(460,276);
-	img = loadImage("mario.jpg");
-	background(255);
+  size (500,500);
+  // Images must be in the "data" directory to load correctly
+  img = loadImage("images.jpg");
 }
- 
-void draw()
-{
-	for(int i = 0; i != 5; i++){
-		int x = (int)random(0,460),
-			y = (int)random(0,276);
-		color c = img.get(x,y);
-		fill(c);
-		noStroke();
-		ellipse(x,y,15,15);
-	}
+
+void draw() {
+  for(int i=0; i !=100000;i++);
+ int x= (int)random(0,277),
+ y= (int)random(0,300);
+ color c=img.get(x,y);
+ fill(c);
+ noStroke();
+ ellipse(x,y,10,10);
 }
