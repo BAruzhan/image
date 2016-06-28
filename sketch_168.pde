@@ -1,3 +1,4 @@
+/* @pjs preload="42674765.jpg"; */
 PImage img;
 int dx=80;
 int dy=80;
@@ -17,3 +18,4 @@ void draw() {
  noStroke();
  ellipse(x,y,10,10);
 }
+
